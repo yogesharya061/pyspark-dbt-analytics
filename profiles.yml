@@ -1,0 +1,7 @@
+retail_analytics:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: output/retail.duckdb
+      threads: 2

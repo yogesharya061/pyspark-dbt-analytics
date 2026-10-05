@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "id": "model.retail_analytics.stg_orders",
+      "status": "success"
+    },
+    {
+      "id": "model.retail_analytics.customer_revenue",
+      "status": "success"
+    },
+    {
+      "id": "test.retail_analytics.not_null_stg_orders_amount.2546645448",
+      "status": "success"
+    },
+    {
+      "id": "test.retail_analytics.not_null_stg_orders_order_id.81cfe2fe64",
+      "status": "success"
+    },
+    {
+      "id": "test.retail_analytics.no_negative_revenue",
+      "status": "success"
+    },
+    {
+      "id": "test.retail_analytics.unique_stg_orders_order_id.e3b841c71a",
+      "status": "success"
+    },
+    {
+      "id": "test.retail_analytics.reconcile_revenue",
+      "status": "success"
+    },
+    {
+      "id": "test.retail_analytics.not_null_customer_revenue_customer_id.a01a561673",
+      "status": "success"
+    },
+    {
+      "id": "test.retail_analytics.unique_customer_revenue_customer_id.3b4be2f107",
+      "status": "success"
+    }
+  ]
+}

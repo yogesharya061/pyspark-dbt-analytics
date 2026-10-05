@@ -1,0 +1,13 @@
+version: 2
+models:
+  - name: stg_orders
+    description: Validated orders from Spark with the latest version per order.
+    columns:
+      - name: order_id
+        tests: [unique, not_null]
+      - name: amount
+        tests: [not_null]
+  - name: customer_revenue
+    columns:
+      - name: customer_id
+        tests: [unique, not_null]
